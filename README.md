@@ -7,7 +7,7 @@ Have this ever happened to you? When doing Competitive Programming, you come up 
 That's actually how I built this program. Because sometimes, I wanted to test out different algorithms in Codeforces, rather than just
 know that whether my submission is approved or not.
 
-This is the result of my program analyzer
+**This is the result of my program analyzer**
 
 ![My Image](images/Result.png)
 
