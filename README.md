@@ -1,15 +1,24 @@
-# HW5 Experiments with Quicksort
+# Program Runtime Analyzer By Randomization
 
 ## Overview
 
-The Quicksort Experiments program uses 3 different Pivot choosing methods and keeps track of the running time on different types of array. 
+Have this ever happened to you? When doing Competitive Programming, you come up with 2 approaches even in the same Big O notation but don't know which one is better? Here comes Program Runtime Analyzer! This program will analyze your runtime through randomization by millisecond to conclude which algorithms is actually better.
+
+That's actually how I built this program. Because sometimes, I wanted to test out different algorithms in Codeforces, rather than just
+know that whether my submission is approved or not.
+
+This is the result of my program analyzer
+
+![My Image](images/Result.png)
 
 The program can: 
-- Generate differnet type of array: Random, Duplicate with levels, Sorted with level
-- Use different Pivot choosing methods: First index, Random index, Medion of 3 Pivots index
-- Print the running time of 3 methods 
+- Generate differnet submissions
+- Print the running time of all methods 
 
 ## Usage
+
+For example, I will analyze 3 types of choosing pivots in Sort: Random, Median, and First Index
+
 To use the CountrySorterLost program, run the following commands after downloading the code:
 ```
 $ javac *.java
@@ -33,14 +42,8 @@ Random index: 0.62
 Median of 3 index: 0.54
 ```
 
-## Note
-There might me Stack Overflow if you choose task 3 or 4. (Explain in the MEMO)
 
-## Rubric
-
-Here we discuss how our project meets the rubric requirements of HW5
-
-### Median of 3 pivot selector implemented correctly
+### Median of 3 pivot selector
 
 Our program can get the index of median of 3 pivot selector implemented correctly. Here is a snippet of code:
 ```java
@@ -65,26 +68,4 @@ public int choosePivotIndex(int[] array, int first, int last) {
 
 ```
 
-### Analyzed effect of length of array
-I analyzed the effect of length of array in section I of MEMO
-
-### Analyzed effect of initial ordering
-I analyzed the effect of initial ordering of array in section III of MEMO
-
-### Analyzed effect of duplicated items
-I analyzed the effect of duplicated items in section II of MEMO
-
-### Explains convincingly why evidence supports the claim
-I explain why evidence suppports the claim in every parts 2 `Evidence` and 3 `Description & Conclusion` of section I, II, III. And explain the "nosiy data" in `Prompt` section at the end of the MEMO
-
-### Memo makes a recommendation of which pivot approach to use
-I make recommendation in every part 4 `Recommendation` of section I, II, III. And explain it in the `Prompt` section at the end of MEMO
-
-### Evidence presented clearly
-I make evidence from terminal and data charts in every part 2 `Evidence` of section I, II, III.
-
-### Memo organized well
-Yes, I believe my Memo is well-organized
-
-### README complete
-This is the end of my README. It's complete!
+### Contact: https://www.linkedin.com/in/duyngp/
